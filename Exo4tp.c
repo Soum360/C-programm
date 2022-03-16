@@ -4,9 +4,9 @@
 
 int main ()
 {
-    int fd;
-    MD5File(fd, &buf );
-    printf ("%p", buf);
-    fclose( fd );
+    int fd1;
+    MD5File(fd1, &buffer );
+    printf ("%p", buffer);
+    fclose( fd1 );
     return 0;
 }
