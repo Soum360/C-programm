@@ -1,12 +1,12 @@
-#include<sys/types.h>
-#includ <stdlib.h>
-#include<md5.h>
+#include <sys/types.h>
+#include <stdlib.h>
+#include <md5.h>
 
 int main ()
 {
-    int fd1;
-    MD5File(fd1, &buffer );
-    printf ("%p", buffer);
-    fclose( fd1 );
+    int fd;
+    MD5File(fd, &buf );
+    printf ("%p", buf);
+    fclose( fd );
     return 0;
 }
